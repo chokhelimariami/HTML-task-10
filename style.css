@@ -26,6 +26,7 @@ body {
     justify-items: center;
     
     
+    
 }
 .first1 {
     display: flex;
@@ -33,6 +34,7 @@ body {
     flex-direction: row;
     align-items: center;
     width: 30%;
+    font-family: karla;
 }
 .img1 {
     width: 111.219px;
@@ -65,7 +67,20 @@ letter-spacing: 1.5px;
     flex-direction: column;
     justify-items: center;
     justify-content: space-around;
+    font-family: "DM Serif Display";
     
+}
+.button2 {
+  width: 146px;
+  height: 40px;
+  background-color: #2D2641;
+  border: 1.5px solid #FFF;
+  color:#FFFFFF ;
+}
+
+.button2:hover {
+  background-color: #FFF;
+  color: #2D2641;
 }
 .h1 {
     width: 540px;
@@ -175,6 +190,7 @@ letter-spacing: 1.5px;
         text-align: left;
         width: 350px;
         height: 78px;
+        font-family: klara;
     }
 
     
@@ -220,17 +236,23 @@ letter-spacing: 1.5px;
     background-color: #2D2641;
     position: absolute;
     left: 870px;
+    z-index: 0;
+  }
+  .button1:hover {
+    background-color: #FFF;
+    color: #2D2641;
   }
   .img5{
     position: absolute;
     right: 0;
+    z-index: 1;
   }
   .fivebox {
-    width: 100vw;
+    width: 100%;
     height: 393px;
     position: relative;
     background-color: #fafafa;
-    margin-top: 1000px;
+    margin-top: 150px;
     padding: 64px 165px 64px 165px;
     background-color: #FAFAFA;
     display: flex;
@@ -259,10 +281,18 @@ letter-spacing: 1.5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
     width: 100%;
     height: 237px;
-    align-content:flex-end
+    position: absolute;
+    top: 170px;
+    font-family: karla;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #2D2641;
+    
+
+    
   }
  
 .column1 {
@@ -270,6 +300,7 @@ letter-spacing: 1.5px;
     flex-direction: column;
     width: 100%;
     height: 159px;
+    justify-content:space-between ;
     
 }
 
@@ -278,6 +309,7 @@ letter-spacing: 1.5px;
     flex-direction: column;
     width: 100%;
     height: 159px;
+    justify-content: space-between;
    
 }
   .column3 {
@@ -285,6 +317,7 @@ letter-spacing: 1.5px;
     flex-direction: column;
     width: 100%;
     height: 128px;
+    justify-content: space-between;
 
   }
   .column4{
@@ -292,5 +325,12 @@ letter-spacing: 1.5px;
     flex-direction: column;
     width: 100%;
     height: 128px;
+    justify-content: space-between;
   }
 
+  .head{
+    margin-bottom: 36px;
+    color:#837D88; ;
+  }
+
+   
